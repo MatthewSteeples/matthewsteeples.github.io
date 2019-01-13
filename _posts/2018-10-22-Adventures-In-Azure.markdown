@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Adventures in Azure'
-tag: AdventursInAzure
+tag: AdventuresInAzure Azure
 ---
 
 The day job involves a lot of cloud computing (our server bill is our second biggest cost after people) and we like to stay ahead of the curve where possible. We've been in Azure since the beginning with this project, and it's enabled us to develop and scale quickly, using fewer developers and IT professionals than if we were looking after it all ourselves. It hasn't always seemed as straightforward as we'd have liked it to be, so this blog is going to give a bit of history and documentation into our processes.
@@ -31,7 +31,7 @@ For the most part, each item in the list above represents something that we didn
 
 There are also some pieces that we used to use but don't anymore for various reasons:
 
-* Cloud Services
+* [Cloud Services]({% post_url 2019-01-13-Cloud-Services %})
 * Automation
 
 Additionally,there are a few Azure services that we've evaluated and not chosen, and I think the stories behind them are just as valuable:
