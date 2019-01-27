@@ -8,11 +8,11 @@ The day job involves a lot of cloud computing (our server bill is our second big
 
 Here's a fairly comprehensive list of the Azure services that we make use of at the moment (in no particular order):
 
-* App Services
-* WebJobs 
-* Sql Azure 
+* [App Services]({% post_url 2019-01-27-App-Services %})
+* WebJobs
+* Sql Azure
 * Blob Storage
-* Table Storage 
+* Table Storage
 * Queue Storage
 * Service Bus
 * Virtual Machines
@@ -37,7 +37,7 @@ There are also some pieces that we used to use but don't anymore for various rea
 Additionally,there are a few Azure services that we've evaluated and not chosen, and I think the stories behind them are just as valuable:
 
 * DNS
-* CosmosDB 
+* CosmosDB
 * Containers
 * Service Fabric
 * Traffic Manager
