@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Azure Performance Tidbit #1'
-tag: 
+tag: Scriptlist AzureTables
 ---
 
 I've got a side project that is using Azure Tables as it's primary datastore. I've been importing records into it from CSV files for a month or so now and was curious to see how many records were in there. There isn't a built in Count() function in Azure (yet) so I wrote a small WebJob that would count the number of partitions and the number of records in my tables. It took about 10 minutes to write (including the use of projections to reduce the amount of data that it needed to parse) and then I set it off going... and waited...

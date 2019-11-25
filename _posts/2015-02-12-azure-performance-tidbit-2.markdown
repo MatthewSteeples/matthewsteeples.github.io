@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Azure Performance Tidbit #2'
-tag: 
+tag: Scriptlist AzureTables
 ---
 
 Continuing on with the aforementioned side project, I tried some scaling up. I'd made a mistake in the design of the table so it was easier to bin it all and re-import it. I decided to see if running the imports in parallel would speed things up, and I was not disappointed!
