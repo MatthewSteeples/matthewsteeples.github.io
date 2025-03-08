@@ -1,0 +1,6 @@
+{
+    "name": "Ruby Development Container",
+    "image": "mcr.microsoft.com/devcontainers/ruby",
+    "postCreateCommand": "bundle install",
+    "remoteUser": "vscode"
+  }
